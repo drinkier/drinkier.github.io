@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
     var options = {
         startDate: new Date(),
-        endDate: new Date("October 31, 2016 00:00:00")
+        endDate: new Date("November 1, 2016 00:00:00")
     };
 
     $('#container').page(options);
