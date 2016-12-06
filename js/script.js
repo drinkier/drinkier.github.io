@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
     var options = {
         startDate: new Date(),
-        endDate: new Date("January 1, 2017 00:00:00")
+        endDate: new Date("February 14, 2017 00:00:00")
     };
 
     $('#container').page(options);
@@ -41,7 +41,6 @@ jQuery(document).ready(function($) {
             // Activate background
             $('#background').hide();
             var bg = $('#background img');
-            console.log(bg.size());
             if (bg.size() == 1) {
                 var imageSrc = $('#background img').attr('src');
                 $.vegas({
