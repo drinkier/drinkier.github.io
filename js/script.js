@@ -40,7 +40,7 @@ jQuery(document).ready(function ($) {
                     });
                 }
             }
-            // Do preloader
+        // Do preloader
         obj.preloading = function () {
             var preloader = $('<div id="preloader"><div class="loading"><div class="label">loading...</div></div></div>');
             obj.prepend(preloader);
