@@ -21,7 +21,7 @@ jQuery(document).ready(function ($) {
             , options = $.extend(defaults, opt);
         obj.init = function () {
                 // Activate count down
-                $("#countdown").dsCountDown(options);
+                // $("#countdown").dsCountDown(options);
                 // Activate tooltip for social media link
                 $(".sm-links a").aToolTip({
                     fixed: true
